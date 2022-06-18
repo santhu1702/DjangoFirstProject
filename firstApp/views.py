@@ -49,5 +49,11 @@ from django.urls import reverse
 
 #     return HttpResponseRedirect(reverse('topic_page',args=[numpage]))
 
+#  <--  conecting Sample view in Django -->
+
+
+def SampleHtml_view(request):
+    return render(request,'firstApp/Example.Html')
+
 
 

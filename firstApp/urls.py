@@ -11,4 +11,7 @@ urlpatterns = [
 #     # path('<int:num1>/<int:num2>',views.sum_view),                         ----->>>> Dynamic Urls Part 
 #     path('<int:numpage>/',views.num_page_view)
 # ]   
+
+    path('',views.SampleHtml_view)
+
 ]
